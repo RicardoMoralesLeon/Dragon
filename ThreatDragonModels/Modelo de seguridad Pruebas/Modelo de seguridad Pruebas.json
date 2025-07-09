@@ -259,8 +259,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 370
+              "x": 147.5,
+              "y": 250
             },
             "size": {
               "width": 120,
@@ -623,8 +623,8 @@
           },
           {
             "position": {
-              "x": 155,
-              "y": 70
+              "x": 85,
+              "y": 70.00000000000001
             },
             "size": {
               "width": 112.5,
@@ -737,6 +737,70 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "f2207bce-58f3-454f-b089-1f73134d3aca",
+            "source": {
+              "x": 275,
+              "y": 70
+            },
+            "target": {
+              "x": 330,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "26d686f3-5b8f-4cbc-a4e6-62d3c644868a",
+            "source": {
+              "x": 620,
+              "y": 50
+            },
+            "target": {
+              "x": 790,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 210
+              }
+            ]
           }
         ]
       }
