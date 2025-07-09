@@ -915,6 +915,65 @@
                 "y": 350
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "f14c79c3-c0ef-45a4-b7cb-6aa0f2b8aa32",
+            "source": {
+              "cell": "f5d692d8-25a7-4975-9d78-78dbae5b8828",
+              "port": "3dab9e0f-8474-4d54-baa8-f0aad483bfbf"
+            },
+            "target": {
+              "cell": "f67fa872-715b-493a-9c97-f9e4e196c9c9",
+              "port": "4b4d52dc-1bff-4c3f-b9e9-d1c992148b9b"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 100
+              },
+              {
+                "x": 640,
+                "y": 140
+              },
+              {
+                "x": 710,
+                "y": 140
+              }
+            ]
           }
         ]
       }
