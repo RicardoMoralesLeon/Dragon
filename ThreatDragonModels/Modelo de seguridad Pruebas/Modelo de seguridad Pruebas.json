@@ -746,42 +746,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Internet",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Internet"
-            ],
-            "id": "f2207bce-58f3-454f-b089-1f73134d3aca",
-            "source": {
-              "x": 275,
-              "y": 70
-            },
-            "target": {
-              "x": 330,
-              "y": 420
-            },
-            "vertices": [
-              {
-                "x": 310,
-                "y": 130
-              },
-              {
-                "x": 330,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Interne",
               "description": "",
               "isTrustBoundary": true,
@@ -913,6 +877,42 @@
               {
                 "x": 350,
                 "y": 350
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "f2207bce-58f3-454f-b089-1f73134d3aca",
+            "source": {
+              "x": 175,
+              "y": 30
+            },
+            "target": {
+              "x": 230,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 90
+              },
+              {
+                "x": 230,
+                "y": 160
               }
             ]
           }
