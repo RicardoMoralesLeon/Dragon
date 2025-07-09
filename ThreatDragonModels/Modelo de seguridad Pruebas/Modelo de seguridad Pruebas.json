@@ -775,6 +775,42 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "f2207bce-58f3-454f-b089-1f73134d3aca",
+            "source": {
+              "x": 175,
+              "y": 30
+            },
+            "target": {
+              "x": 230,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 90
+              },
+              {
+                "x": 230,
+                "y": 160
+              }
+            ]
+          },
+          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -816,7 +852,7 @@
             },
             "target": {
               "cell": "3e098e1a-d7c1-418a-a401-54c73a8b64de",
-              "port": "43b445cf-56ec-4b93-8fa1-d4721c2c588f"
+              "port": "4ee34e3e-2d40-4229-9487-d0d964209415"
             },
             "vertices": [
               {
@@ -877,42 +913,6 @@
               {
                 "x": 350,
                 "y": 350
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Internet",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Internet"
-            ],
-            "id": "f2207bce-58f3-454f-b089-1f73134d3aca",
-            "source": {
-              "x": 175,
-              "y": 30
-            },
-            "target": {
-              "x": 230,
-              "y": 380
-            },
-            "vertices": [
-              {
-                "x": 210,
-                "y": 90
-              },
-              {
-                "x": 230,
-                "y": 160
               }
             ]
           }
